@@ -155,3 +155,7 @@ docs/pages/versions/*/react-native/*.diff
 # Secrets - contains real secrets fetched from GCP
 /secrets/keys.json
 /secrets/expotools.env
+
+# Native module declarations written by `expo-modules generate-types`. SDK packages keep their
+# hand-written types, so the generated file is a local aid and never committed.
+/packages/*/src/native.d.ts
